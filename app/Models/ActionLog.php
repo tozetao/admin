@@ -12,5 +12,5 @@ class ActionLog extends Model
 
     protected $connection = 'central';
 
-    protected $fillable = ['user_id', 'action', 'data', 'ip', 'title', 'content', 'created_at', 'server_no'];
+    protected $fillable = ['user_id', 'action', 'data', 'ip', 'created_at'];
 }
